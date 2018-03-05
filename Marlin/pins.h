@@ -2388,13 +2388,13 @@ DaveX plan for Teensylu/printrboard-type pinouts (ref teensylu & sprinter) for a
 #define TEMP_BED_PIN 2
 
 #define HEATER_0_PIN  9
-#define TEMP_0_PIN 0
+#define TEMP_0_PIN 15
 
 #define HEATER_1_PIN 7
-#define TEMP_1_PIN 1
+#define TEMP_1_PIN 15
 
 #ifdef BARICUDA
-#define HEATER_2_PIN 6
+#define HEATER_2_PIN 15
 #else
 #define HEATER_2_PIN -1
 #endif
